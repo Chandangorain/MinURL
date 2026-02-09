@@ -1,6 +1,6 @@
 const mongoose=require('mongoose');
 
-const urlSchema=new mongoose.Schema({  // making a schema
+const urlSchema=new mongoose.Schema({  // making a schema which has shortID,redirctURL,visithistory
     shortId:{
         type:String,
         required:true,
