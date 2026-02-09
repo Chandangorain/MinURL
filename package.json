@@ -1,0 +1,23 @@
+{
+  "name": "minurl",
+  "version": "1.0.0",
+  "description": "A URL shortening service built with Node.js and MongoDB that converts long URLs into short, shareable links and efficiently redirects users to the original destination.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chandangorain/MinURL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chandangorain/MinURL/issues"
+  },
+  "homepage": "https://github.com/Chandangorain/MinURL#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.1.6"
+  }
+}
